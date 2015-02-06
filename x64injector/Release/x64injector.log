@@ -1,0 +1,25 @@
+﻿Build started 3/31/2014 2:47:27 PM.
+     1>Project "C:\Users\jgeljgelkll\Documents\Visual Studio 2010\Projects\x64injector\x64injector\x64injector.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\x64injector.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         d:\VS\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt x64injector.cpp
+         x64injector.cpp
+     1>x64injector.cpp(15): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\VS\VC\include\string.h(283) : see declaration of 'wcscpy'
+       Link:
+         d:\VS\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\jgeljgelkll\Documents\Visual Studio 2010\Projects\x64injector\Release\x64injector.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\x64injector.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\jgeljgelkll\Documents\Visual Studio 2010\Projects\x64injector\Release\x64injector.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\jgeljgelkll\Documents\Visual Studio 2010\Projects\x64injector\Release\x64injector.lib" /MACHINE:X86 Release\stdafx.obj
+         Release\x64injector.obj
+         Generating code
+         Finished generating code
+         x64injector.vcxproj -> C:\Users\jgeljgelkll\Documents\Visual Studio 2010\Projects\x64injector\Release\x64injector.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\jgeljgelkll\Documents\Visual Studio 2010\Projects\x64injector\Release\x64injector.exe;#1" /manifest Release\x64injector.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\x64injector.unsuccessfulbuild".
+         Touching "Release\x64injector.lastbuildstate".
+     1>Done Building Project "C:\Users\jgeljgelkll\Documents\Visual Studio 2010\Projects\x64injector\x64injector\x64injector.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.40
